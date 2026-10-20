@@ -62,7 +62,10 @@ The integrated browser automation surface was unavailable during this audit, so 
 
 ## GitHub Pages
 
-The repository remains ready for Pages from `main /docs`. The remote Pages endpoint was previously unconfigured/404; this audit does not claim deployment.
+- public homepage response = 200
+- public CSS / JS / data responses = 200
+- public 115 PDF response = 200
+- Pages API configuration endpoint was not exposed by the current GitHub response; deployment is confirmed only by the public endpoint checks above
 
 ## Release Gate
 
@@ -70,5 +73,5 @@ The repository remains ready for Pages from `main /docs`. The remote Pages endpo
 - content regression = PASS
 - PDF regression = PASS
 - offline package = PASS
-- Pages deployed = NOT CLAIMED
-
+- Pages homepage = PASS
+- Pages API configuration metadata = UNAVAILABLE
