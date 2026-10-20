@@ -85,8 +85,14 @@ PASS_WITH_LIMITATION
 # GitHub Pages
 
 - source = `main /docs`
-- public endpoint verification = pending final push
-- no deployment claim made before final endpoint check
+- public endpoint = `https://mikemikex1.github.io/highscooltestessay/`
+- homepage = HTTP 200
+- `styles.css` = HTTP 200
+- `app.js` = HTTP 200
+- `data.js` = HTTP 200
+- 115 official exam PDF = HTTP 200
+- 115 official image assets = HTTP 200 (2/2)
+- public endpoint verification = PASS
 
 # STOP EXPANSION
 
@@ -104,4 +110,3 @@ YES
 - collapsed default = YES
 - PDF links = PASS
 - offline ZIP = PASS
-
